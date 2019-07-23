@@ -1,0 +1,49 @@
+[
+  {
+    "Email": "usuario1@test.com",
+    "Name": "Usuario1",
+    "Password": "123456",
+    "Permissions": [
+
+      {
+        "Controller": "Product",
+        "Action": "Get"
+      },
+      {
+        "Controller": "Product",
+        "Action": "Post"
+      },
+      {
+        "Controller": "Category",
+        "Action": "Get"
+      },
+      {
+        "Controller": "Category",
+        "Action": "Post"
+      }
+    ],
+    "Username": "username1"
+  },
+  {
+    "Email": "usuario2@test.com",
+    "Name": "Usuario2",
+    "Password": "654321",
+    "Permissions": [
+
+      {
+        "Controller": "Product",
+        "Action": "Get"
+      },
+      {
+        "Controller": "Category",
+        "Action": "Get"
+      },
+      {
+        "Controller": "Category",
+        "Action": "Post"
+      }
+    ],
+    "Username": "username2"
+  }
+]
+
